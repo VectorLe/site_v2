@@ -93,15 +93,17 @@ nav ul li {
 	animation: fadeIn 4s ease;
 }
 
-main i {
+.social {
+	height: 2.2em;
+	width: 2.2em;
 	margin: 0 5px;
 	transition: all 0.2s;
 }
 
-main i:hover {
+.social:hover {
 	opacity: 0.9;
-	color: royalblue;
-	transform: translateY(-3px);
+	filter: contrast(200%) brightness(200%) drop-shadow(0px 0px 15px lightcoral);
+	transform: scale(1.16);
 }
 
 /* POPUPS */
